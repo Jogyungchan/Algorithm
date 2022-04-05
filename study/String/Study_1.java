@@ -18,7 +18,7 @@ public class Study_1 {
 		c = Character.toLowerCase(c);
 		
 		int count = 0;
-		// 반복문을 통해 문자열과 문자를 비교하면서 같으면 카운트를 1씩 증가 
+		// 반복문을 통해 문자열과 문자를 비교하면서 같으면 카운트를 1씩 증가. 
 		for(char x : str.toCharArray()) {
 			if(c==x) count++;
 		}
